@@ -1,10 +1,10 @@
 import './App.css';
-import Todo from './Todo';
+import TestHeader from './TestHeader';
 
 function App() {
   return (
     <div className='App'>
-      <Todo />
+      <TestHeader isLogin={true} userId='jke' />
     </div>
   );
 }
