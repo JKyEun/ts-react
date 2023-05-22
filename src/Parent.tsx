@@ -1,10 +1,5 @@
 import Children from './Children';
-
-export interface Info {
-  name: string;
-  age: number;
-  hobbies: string[];
-}
+import { Info } from './types/types';
 
 export default function Parent() {
   const jke: Info = {

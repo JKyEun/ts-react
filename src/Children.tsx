@@ -1,4 +1,4 @@
-import { Info } from './Parent';
+import { Info } from './types/types';
 
 export default function Children({ name, age, hobbies }: Info) {
   return (

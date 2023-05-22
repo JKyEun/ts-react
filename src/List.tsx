@@ -1,5 +1,5 @@
 import React from 'react';
-import { Task } from './Todo';
+import { Task } from './types/types';
 
 export default function List({ task, done }: Task) {
   return (

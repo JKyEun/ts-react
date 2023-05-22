@@ -1,10 +1,6 @@
 import React, { useRef, useState } from 'react';
 import List from './List';
-
-export interface Task {
-  task: string;
-  done: boolean;
-}
+import { Task } from './types/types';
 
 export default function Todo() {
   const [todo, setTodo] = useState<Task[]>([]);
